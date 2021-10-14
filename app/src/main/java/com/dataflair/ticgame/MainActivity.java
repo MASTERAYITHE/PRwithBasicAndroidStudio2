@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         txt_turn = (TextView) findViewById(R.id.turn);
 
         resetBoard();
-        txt_turn.setText("Turn: "+turn);
+        txt_turn.setText("YOUR TURN: "+turn);
 
         for(int i = 0; i< gameBoard.getChildCount(); i++){
             TableRow row = (TableRow) gameBoard.getChildAt(i);
